@@ -56,27 +56,37 @@
     </div>
 </div>
 
+<div class="items6">
+    <a1 href="Vælgby.html" style="text-decoration: none;"> Vælg by... <i class="fas fa-arrow-down"></i></a1>
+</div>
 
-<!--div class="footer">
-        <div class="foot1">
-            <div> Presse og medier </div>
-        </div>
+<div class="boks2">
+    <div class="items7">
 
-        <div class="foot2">
-            <div> Job og karriere </div>
-        </div>
+    </div>
+</div>
 
-        <div class="foot3">
-            <div> Om DMI </div>
-        </div>
+<div class="footer">
+    <div class="foot1">
+        <div> Presse og medier </div>
+    </div>
 
-        <div class="foot4">
-            <div> Kontakt </div>
-        </div>
+    <div class="foot2">
+        <div> Job og karriere </div>
+    </div>
 
-        <div class="foot5">
-            <a href="index.html" style="..."> <img src="images/logo.png"></a>
-        </div>
-        -->
+    <div class="foot3">
+        <div> Om DMI </div>
+    </div>
+
+    <div class="foot4">
+        <div> Kontakt </div>
+    </div>
+
+    <div class="foot5">
+        <div> <a href="index.html" style="text-decoration: none;"> <img src="images/logo.png"> </a></div>
+    </div>
+</div>
+
 </body>
 </html>

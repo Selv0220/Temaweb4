@@ -46,6 +46,7 @@ img {
   font-size: 20px;
   border-radius: 30px;
 }
+
 .items{
   background-color: #1a398d;
   padding: 10px;
@@ -106,55 +107,86 @@ a{
   color: white;
 }
 
-/*footer{
-    display: flex;
-    justify-content: center;
-    margin: 0 30px;
-    background-color:#1a398d;
-    padding: 20px 20px 10px 120px;
-    text-align: center;
-    font-family: "Helvetica Neue";
-    font-size: 20px;
+.items6{
+  position: relative;
+  top: 100px;
+  border-color: black;
+  border-style: solid;
+  padding: 13px;
+  margin:0 20px;
+  width: 130px;
+  height: 50px;
+  border-radius: 30px;
+  font-family: "Helvetica Neue";
+}
+/*@mixin setpos($top: auto, $right: auto, $bottom: auto, $left: auto) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+
+    Brug ixin så du kun skal skrive denne
+    kode næste gang du skal flytte noget:
+    p { @include setpos(33, 19); }
+}*/
+
+a1{
+  color: black;
+}
+
+.footer{
+  position: relative;
+  top: 550px;
+  display: flex;
+  justify-content: center;
+  margin: 0 20px;
+  background-color:#1a398d;
+  padding: 10px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  border-radius: 30px;
 }
 
 .foot1{
-    font-size: 20px;
-    height: 150px;
-    text-align: center;
-    color: white;
-    font-family:"Helvetica Neue";
+  background-color: #1a398d;
+  margin: 0 20px;
+  padding: 10px;
+  width: 478px;
+  height: 50px;
+  color: #ffffff;
 }
 
 .foot2{
-    font-size: 20px;
-    height: 150px;
-    text-align: center;
-    color: white;
-    font-family:"Helvetica Neue";
+  background-color: #1a398d;
+  margin: 0 20px;
+  padding: 10px;
+  width: 478px;
+  height: 50px;
+  color: #ffffff;
 }
 
 .foot3{
-    font-size: 20px;
-    height: 150px;
-    text-align: center;
-    color: white;
-    font-family:"Helvetica Neue";
+  background-color: #1a398d;
+  margin: 0 20px;
+  padding: 10px;
+  width: 478px;
+  height: 50px;
+  color: #ffffff;
 }
 
 .foot4{
-    font-size: 20px;
-    height: 150px;
-    text-align: center;
-    color: white;
-    font-family:"Helvetica Neue";
+  background-color: #1a398d;
+  margin: 0 20px;
+  padding: 10px;
+  width: 478px;
+  height: 50px;
+  color: #ffffff;
 }
 
 .foot5{
-    width: 478px;
-    height: 150px;
+  background-color: #1a398d;
+  padding: 10px;
+  color: #ffffff;
 }
-
-.foot5 img{
-    max-height: 150px;
-}*/
-
