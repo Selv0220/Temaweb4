@@ -1,192 +1,157 @@
-* { /* Gælder alt på hele siden */
-  box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
-}
+@mixin setpos($top: auto, $right: auto, $bottom: auto, $left: auto) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
 
-/* Ovenstående kode kan give problemer ved nogle 3. parts scripts man henter. Men det gør det nemmere at forstå og lave kodning når man starter. */
+  .boks1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    background-color: #1a398d;
+    padding: 10px;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    border-radius: 30px;
+  }
 
-body {
-  margin: 0; /* Ingen kanter i siden af browser */
-}
+  .items {
+    background-color: #1a398d;
+    padding: 10px;
+    color: #ffffff;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0; /* Ingen ydre margen fra overskrifter */
-  padding: 0; /* Ingen indre margen fra overskrifter */
-}
+  .items1 {
+    border-color: #ffffff;
+    border-style: solid;
+    margin: 0 20px;
+    padding: 10px 50px;
+    background-color: #1a398d;
+    color: #ffffff;
+    width: 478px;
+    height: 50px;
+    border-radius: 30px;
+  }
 
-ul, ol {
-  margin: 2px 10px 2px 10px; /* Mindre margen på punkter */
-  padding: 0; /* Ingen indre margen fra lister */
-  list-style-position: inside; /* List punkter står på linje */
-}
+  .items2 {
+    background-color: #1a398d;
+    margin: 0 20px;
+    padding: 10px;
+    width: 478px;
+    height: 50px;
+    color: #ffffff;
+  }
 
-li {
-  margin: 0; /* Ingen ydre margen fra listpunkter */
-}
+  .items3 {
+    background-color: #1a398d;
+    margin: 0 20px;
+    padding: 10px;
+    width: 478px;
+    height: 50px;
+    color: #ffffff;
+  }
 
-p {
-  margin: 0; /* Ingen ydre margen fra paragraffer */
-  padding: 0; /* Ingen indre margen fra paragraffer */
-}
+  .items4 {
+    background-color: #1a398d;
+    margin: 0 20px;
+    padding: 10px;
+    width: 478px;
+    height: 50px;
+    color: #ffffff;
+  }
 
-/* Sikrer billeder er responsive */
-img {
-  display: block; /* Billeder er et element (laver linjeskift) */
-  max-width: 100%; /* Bredde må maks fylde 100% */
-  height: auto; /* Højden skal tilpasse sig */
-}
+  .items5 {
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 10px;
+    margin: 0 20px;
+    background-color: #1a398d;
+    width: 478px;
+    height: 50px;
+    color: #ffffff;
+    border-radius: 30px;
+  }
 
-.boks1{
-  display: flex;
-  justify-content: center;
-  margin: 0 20px;
-  background-color:#1a398d;
-  padding: 10px;
-  text-align: center;
-  font-family: "Helvetica Neue";
-  font-size: 20px;
-  border-radius: 30px;
-}
+  a {
+    color: white;
+  }
 
-.items{
-  background-color: #1a398d;
-  padding: 10px;
-  color: #ffffff;
-}
+  .items6 {
+    p {
+      @include setpos(100, 19);
+    }
 
-.items1{
-  border-color: #ffffff;
-  border-style: solid;
-  margin: 0 20px;
-  padding: 10px 50px;
-  background-color: #1a398d;
-  color: #ffffff;
-  width: 478px;
-  height: 50px;
-  border-radius: 30px;
-}
+    border-color: black;
+    border-style: solid;
+    padding: 13px;
+    margin: 0 20px;
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: "Helvetica Neue";
+  }
 
-.items2{
-  background-color: #1a398d;
-  margin: 0 20px;
-  padding: 10px;
-  width: 478px;
-  height: 50px;
-  color: #ffffff;
-}
+  a1 {
+    color: black;
+  }
 
-.items3{
-  background-color: #1a398d;
-  margin: 0 20px;
-  padding: 10px;
-  width: 478px;
-  height: 50px;
-  color: #ffffff;
-}
+  .footer {
+    p {
+      @include setpos(550, 19);
+    }
 
-.items4{
-  background-color: #1a398d;
-  margin: 0 20px;
-  padding: 10px;
-  width: 478px;
-  height: 50px;
-  color: #ffffff;
-}
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+    background-color: #1a398d;
+    padding: 10px;
+    text-align: center;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    border-radius: 30px;
+  }
 
-.items5{
-  border-color: #ffffff;
-  border-style: solid;
-  padding: 10px;
-  margin:0 20px;
-  background-color: #1a398d;
-  width: 478px;
-  height: 50px;
-  color: #ffffff;
-  border-radius: 30px;
-}
-a{
-  color: white;
-}
+  .foot1 {
+    background-color: #1a398d;
+    margin: 0 20px;
+    padding: 10px;
+    width: 478px;
+    height: 50px;
+    color: #ffffff;
+  }
 
-.items6{
-  position: relative;
-  top: 100px;
-  border-color: black;
-  border-style: solid;
-  padding: 13px;
-  margin:0 20px;
-  width: 130px;
-  height: 50px;
-  border-radius: 30px;
-  font-family: "Helvetica Neue";
-}
-/*@mixin setpos($top: auto, $right: auto, $bottom: auto, $left: auto) {
-    position: absolute;
-    top: $top;
-    right: $right;
-    bottom: $bottom;
-    left: $left;
+  .foot2 {
+    background-color: #1a398d;
+    margin: 0 20px;
+    padding: 10px;
+    width: 478px;
+    height: 50px;
+    color: #ffffff;
+  }
 
-    Brug ixin så du kun skal skrive denne
-    kode næste gang du skal flytte noget:
-    p { @include setpos(33, 19); }
-}*/
+  .foot3 {
+    background-color: #1a398d;
+    margin: 0 20px;
+    padding: 10px;
+    width: 478px;
+    height: 50px;
+    color: #ffffff;
+  }
 
-a1{
-  color: black;
-}
+  .foot4 {
+    background-color: #1a398d;
+    margin: 0 20px;
+    padding: 10px;
+    width: 478px;
+    height: 50px;
+    color: #ffffff;
+  }
 
-.footer{
-  position: relative;
-  top: 550px;
-  display: flex;
-  justify-content: center;
-  margin: 0 20px;
-  background-color:#1a398d;
-  padding: 10px;
-  text-align: center;
-  font-family: "Helvetica Neue";
-  font-size: 20px;
-  border-radius: 30px;
-}
-
-.foot1{
-  background-color: #1a398d;
-  margin: 0 20px;
-  padding: 10px;
-  width: 478px;
-  height: 50px;
-  color: #ffffff;
-}
-
-.foot2{
-  background-color: #1a398d;
-  margin: 0 20px;
-  padding: 10px;
-  width: 478px;
-  height: 50px;
-  color: #ffffff;
-}
-
-.foot3{
-  background-color: #1a398d;
-  margin: 0 20px;
-  padding: 10px;
-  width: 478px;
-  height: 50px;
-  color: #ffffff;
-}
-
-.foot4{
-  background-color: #1a398d;
-  margin: 0 20px;
-  padding: 10px;
-  width: 478px;
-  height: 50px;
-  color: #ffffff;
-}
-
-.foot5{
-  background-color: #1a398d;
-  padding: 10px;
-  color: #ffffff;
+  .foot5 {
+    background-color: #1a398d;
+    padding: 10px;
+    color: #ffffff;
+  }
 }
