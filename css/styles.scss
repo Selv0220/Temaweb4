@@ -1,4 +1,10 @@
-@mixin setpos($top: auto, $right: auto, $bottom: auto, $left: auto) {
+$red: #F00;
+
+body{
+  background-color: $red;
+}
+
+/*@mixin setpos($top: auto, $right: auto, $bottom: auto, $left: auto) {
   position: absolute;
   top: $top;
   right: $right;
@@ -155,3 +161,4 @@
     color: #ffffff;
   }
 }
+ */
