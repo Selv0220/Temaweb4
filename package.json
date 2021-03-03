@@ -1,0 +1,27 @@
+{
+  "name": "temaweb4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --output-style compressed -o css/ css/ --source-map true",
+    "watch": "onchange \"css/*.scss\" -- npm run sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Selv0220/Temaweb4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Selv0220/Temaweb4/issues"
+  },
+  "homepage": "https://github.com/Selv0220/Temaweb4#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "onchange": "^7.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2"
+  }
+}
