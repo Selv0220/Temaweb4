@@ -43,7 +43,6 @@
         <div class="col">
         <div class=bg-primary">Test</div> -->
         <?php include "include/navigation.php"; ?>
-        <?php include "include/footer.php"; ?>
 
         <div class="container rounded-pill border border-2 border-primary m-3">
             <div class="row">
@@ -60,6 +59,8 @@
                 </div>
             </div>
         </div>
+
+        <?php include "include/footer.php"; ?>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
