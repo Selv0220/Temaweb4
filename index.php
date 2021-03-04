@@ -42,25 +42,22 @@
         hvis jeg ønsker mellemrum mellem boksene:
         <div class="col">
         <div class=bg-primary">Test</div> -->
-        <?php include "include/navigation.php"; ?>
 
-        <div class="container rounded-pill border border-2 border-primary m-3">
-            <div class="row">
-                <div class="col-12 col-md-6 col-xl-2">
-                    <a href="Vælgby.php" style="text-decoration: none;" class="link-primary"> Vælg by... <i class="fas fa-arrow-down"></i></a>
-                </div>
-            </div>
-        </div>
+        <?php include "includes/navigation.php"; ?>
+
+            <form class="d-flex m-5">
+                <button class="btn btn-outline-secondary text-primary border border-2 border-primary rounded-pill " type="submit">Vælg by...<i class="fas fa-arrow-down"></i></button>
+            </form>
 
         <div class="container m-sm-1">
             <div class="row">
                 <div class="col-12 col-md-6 col-xl-2">
-                    <a href="Vejrkort.php" style="text-decoration: none;"><img src="images/Temp1.png"></a>
+                    <a href="Vejrkort1.php" style="text-decoration: none;"><img src="images/Temp1.png"></a>
                 </div>
             </div>
         </div>
 
-        <?php include "include/footer.php"; ?>
+        <?php include "includes/footer.php"; ?>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
