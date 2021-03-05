@@ -7,7 +7,9 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <a class="navbar-brand" href="Cookies.php"><img src="images/Co.png"></a>
                 <li class="nav-item">
+
                     <a class="nav-link active text-Hvid" href="#">Presse og medier</a>
                 </li>
 
@@ -23,7 +25,7 @@
                     <a class="nav-link active text-Hvid" href="#">Kontakt</a>
                 </li>
 
-                <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                <a class="navbar-brand" href="index.php"><img src="images/Logo.png"></a>
 
             </ul>
         </div>

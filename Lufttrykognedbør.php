@@ -17,6 +17,8 @@
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -32,16 +34,29 @@
 
 <?php include "includes/navigation.php"; ?>
 
-<div class="container m-5">
-    <div class="row justify-content-between">
+
+<div class="container m-1">
+    <div class="row justify-content-center">
         <div class="col-12 col-md-6 col-xl-2">
-            <a href="#" style="text-decoration: none;"><img src="images/Varsler.png"></a>
+            <a href="Vind.php" style="text-decoration: none;"><img src="images/Nedbør.png"></a>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Vejr</a></li>
+                <li><a class="dropdown-item" href="#">Nedtryk</a></li>
+                <li><a class="dropdown-item" href="#">Vind</a></li>
+            </ul>
         </div>
     </div>
 </div>
 
+
+
 <?php include "includes/footer.php"; ?>
 
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

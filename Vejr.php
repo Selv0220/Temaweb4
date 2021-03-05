@@ -20,23 +20,41 @@
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
 
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<style>
+    body{
+        background-image: url("images/Baggrund.jpg");
+    }
+</style>
 
-<!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
 <?php include "includes/navigation.php"; ?>
 
-<div class="container m-sm-1">
-    <div class="row">
+
+<div class="container m-1">
+    <div class="row justify-content-center">
         <div class="col-12 col-md-6 col-xl-2">
-            <a href="Vejrkort1.php" style="text-decoration: none;"><img src="images/Temp1.png"></a>
+            <a href="Lufttrykognedbør.php" style="text-decoration: none;"><img src="images/Vejr.jpg"></a>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="Vejr.php">Vejr</a></li>
+                <li><a class="dropdown-item" href="Lufttrykognedbør.php">Nedtryk</a></li>
+                <li><a class="dropdown-item" href="Vind.php">Vind</a></li>
+            </ul>
         </div>
     </div>
 </div>
+
+
 
 <?php include "includes/footer.php"; ?>
 

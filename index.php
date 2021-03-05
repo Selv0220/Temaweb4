@@ -49,10 +49,10 @@
                 <button class="btn btn-outline-secondary text-primary border border-2 border-primary rounded-pill " type="submit">Vælg by...<i class="fas fa-arrow-down"></i></button>
             </form>
 
-        <div class="container m-sm-1">
+        <div class="container m-5">
             <div class="row">
                 <div class="col-12 col-md-6 col-xl-2">
-                    <a href="Vejrkort1.php" style="text-decoration: none;"><img src="images/Temp1.png"></a>
+                    <a href="Vejr.php" style="text-decoration: none;"><img src="images/Temp1.png"></a>
                 </div>
             </div>
         </div>
