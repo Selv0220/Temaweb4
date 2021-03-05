@@ -38,7 +38,7 @@
 <div class="container m-1">
     <div class="row justify-content-center">
         <div class="col-12 col-md-6 col-xl-2">
-            <a href="Vind.php" style="text-decoration: none;"><img src="images/Nedbør.png"></a>
+            <a href="Vind.php" style="text-decoration: none;"><img src="images/NedB.png"></a>
         </div>
 
         <div class="dropdown">
