@@ -38,7 +38,7 @@
 <div class="container m-1">
     <div class="row justify-content-center">
         <div class="col-12 col-md-6 col-xl-2">
-            <a href="Lufttrykognedbør.php" style="text-decoration: none;"><img src="images/Vejr.jpg"></a>
+            <a href="Lufttrykogned.php" style="text-decoration: none;"><img src="images/Vejr.jpg"></a>
         </div>
 
         <div class="dropdown">
@@ -47,7 +47,7 @@
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li><a class="dropdown-item" href="Vejr.php">Vejr</a></li>
-                <li><a class="dropdown-item" href="Lufttrykognedbør.php">Nedtryk</a></li>
+                <li><a class="dropdown-item" href="Lufttrykogned.php">Nedtryk</a></li>
                 <li><a class="dropdown-item" href="Vind.php">Vind</a></li>
             </ul>
         </div>
